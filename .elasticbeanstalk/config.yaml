@@ -1,10 +1,10 @@
 branch-defaults:
   devel:
-    environment: -devel
+    environment: services-ui-devel
   master:
-    environment: -prod
+    environment: services-ui-prod
 global:
-  VPCId: vpc-00e4bba608456fdb4
+  VPCId: null
   application_name: membio-eventix-api
   default_ec2_keyname: MEMBIO-INFRA-FEB-5TH-2020
   default_platform: Node.js
