@@ -1,0 +1,20 @@
+branch-defaults:
+  devel:
+    environment: -devel
+  master:
+    environment: -prod
+global:
+  VPCId: vpc-00e4bba608456fdb4
+  application_name: membio-eventix-api
+  default_ec2_keyname: MEMBIO-INFRA-FEB-5TH-2020
+  default_platform: Node.js
+  default_region: us-east-1
+  include_git_submodules: true
+  instance_profile: null
+  instance_type: t2.micro
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  repository: https://gitlab.com/membio123/services/apis/membio-eventix-api.git
+  sc: git
+  workspace_type: Application
