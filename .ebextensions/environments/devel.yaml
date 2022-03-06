@@ -1,0 +1,11 @@
+option_settings:
+  aws:elasticbeanstalk:application:environment:
+
+    CUSTOMER_ID: onekeymls
+    ENV: PROD
+    PROJECT_NAME: site
+   
+    SITE_CDN_URL: https://services-ui.creativezink.com
+    SITE_URL: services-ui.creativezink.com
+
+   

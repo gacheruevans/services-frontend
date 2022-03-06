@@ -1,5 +1,5 @@
 {
-  "name": "services-frontend",
+  "name": "services-ui",
   "private": true,
   "scripts": {
     "dev": "next dev",
